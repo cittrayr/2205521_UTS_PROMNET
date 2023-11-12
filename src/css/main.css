@@ -1,0 +1,72 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    padding: 10px 0 10px 0;
+    transform: scaleY(0);
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform-origin: top;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.navbar.color.active {
+    background-color: #2125;
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    padding: 15px 0 15px 0s;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)), url("../assets/Picture/citrapict2.jpg");
+    background-size: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 300px;
+    padding-right: 10px;
+}
+
+.hero h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.hero p {
+    font-size: 70px;
+    margin-bottom: center;
+    font-weight: bolder;
+    font-variant-position: center;
+}
+
+.picture img {
+}
+
+.footer {
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+.footer .row:nth-child(2) {
+    padding-top: 0px;
+}
+
+.services {
+    font-size: 30px;
+    text-align: center;
+}
+
+@media screen and (max-widht: 992px) {
+    .service {
+      padding-top: 100px;
+    }
+}
