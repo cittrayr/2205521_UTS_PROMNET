@@ -1,23 +1,16 @@
-import NavbarComp from "./components/NavbarComp";
-import HeroComp from "./components/HeroComp";
-import PictureComp from "./components/PictureComp";
-import ServicesComp from "./components/ServicesComp";
-import FooterComp from "./components/FooterComp";
+import logo from './logo.svg';
+import './App.css';
+import { NavBar } from './components/NavBar';
+import { Banner } from './components/Banner';
+import'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  return (
-    <div>
-      <HeroComp />
-
-      {/* Content */}
-      <NavbarComp />
-      <PictureComp />
-      <ServicesComp />
-      {/* Content */}
-
-      <FooterComp />
-    </div>
-  );
+    return (
+        <div className="App">
+            <NavBar />
+            <Banner />
+        </div>
+    );
 }
 
 export default App;
