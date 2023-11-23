@@ -1,17 +1,18 @@
+import React from "react";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project1.jpg";
-import projImg2 from "../assets/img/project2.jpg";
-import projImg3 from "../assets/img/project3.jpg";
-import projImg4 from "../assets/img/project4.jpg";
-import projImg5 from "../assets/img/project5.jpg";
-import projImg6 from "../assets/img/project6.jpg";
-import projImg7 from "../assets/img/project7.jpg";
-import projImg8 from "../assets/img/project8.jpg";
-import projImg9 from "../assets/img/project9.jpg";
-import projImg10 from "../assets/img/project10.jpg";
-import projImg11 from "../assets/img/project11.jpg";
-import projImg12 from "../assets/img/project12.jpg";
+import projImg1 from "../assets/img/project1.png";
+import projImg2 from "../assets/img/project2.png";
+import projImg3 from "../assets/img/project3.png";
+import projImg4 from "../assets/img/project4.png";
+import projImg5 from "../assets/img/project5.png";
+import projImg6 from "../assets/img/project6.png";
+import projImg7 from "../assets/img/project7.png";
+import projImg8 from "../assets/img/project8.png";
+import projImg9 from "../assets/img/project9.png";
+import projImg10 from "../assets/img/project10.png";
+import projImg11 from "../assets/img/project11.png";
+import projImg12 from "../assets/img/project12.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -27,7 +28,7 @@ export const Projects = () => {
     {
       title: "My Best Friends",
       description: "CIELLSON",
-      imgUrl: projImg2,
+      imgUrl : projImg2,
     },
     {
       title: "KEMAKOM",
@@ -78,10 +79,9 @@ export const Projects = () => {
       title: "My Cat",
       description: "Ciko",
       imgUrl : projImg12,
-    },
-  ];
-
-  return (
+    },
+  ];
+return (
     <section className="project" id="projects">
       <Container>
         <Row>
